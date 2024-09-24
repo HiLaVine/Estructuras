@@ -1,0 +1,63 @@
+Examen 1
+
+Instrucciones:
+
+1.- El examen lo deberás de enviar a más tardar a las 8:25 am, a la dirección de correo 2cm2ago2021@gmail.com.
+
+2.- El asunto deberá se número de boleta examen 1, por ejemplo: 2018XXXXXXXX examen 1.
+
+3.- Los nombres de los archivos de los programas deberán ser programa#.c, por ejemplo programa1.c
+
+4.- Para revisar la solución de los ejercicios deberás implementar un programa principal en el que incluirás
+todas las funciones y ejecutará cada una de ellas, de la misma forma que yo lo hacía en clase. Por ejemplo,
+
+#include<stdio.h>
+
+Pila nab(int,int);
+Lista desecha(int,Lista);
+
+int main(){
+
+    int a,b;
+    Pila p=empty();    
+
+    printf("Problema 1. Dame dos enteros!!!);
+    scanf("%d%d",&a,&b);
+    p=nab(a,b);
+    "IMPRIME EL TOPE DE LA PILA Y SACALO DE LA PILA, HASTA QUE LA PILA ESTE VACIA"        
+
+
+   // De la misma forma con las demás funciones que tengas que resolver
+
+    return 0;
+}
+
+Pila nab(int n, int b){ ........};
+
+
+
+Problemas:
+
+OJO: Elem debe ser int para todos los ejercicios.
+
+
+1.- Haciendo uso del TDA Cola, hacer un programa que genere 10 números enteros aleatoriamente y
+los forme en una cola. Despúes deberás implementar una función que reciba una Cola de 
+enteros y devuelva cuantos números pares estaban formados en la cola. Evidentemente,
+para poder contar cuantos números pares hay formados en la cola, deberás de ir desformándolos.
+No importa que la cola se destruya.
+
+2.- Haciendo uso del TDA Cola circula:
+
+a) Hacer un programa en el que mediante una función
+construyas un cola circular c1 con 10 números enteros generados aleatoriamente. 
+
+b) Después, deberás implementar una función que reciba una cola circular de enteros c1, 
+y devuelva otra cola circular c2. La cola c2 que devolverá la función, deberá de 
+contener en la primera posición el primer elemento de la cola c1, 
+la segunda posición posición de c2 deberá contener la sumatoria de los dos primeros
+elementos de c1, la tercera posición de c2 deberá contener la sumatoria de los tres primeros elementos
+de c1, y así sucesivamente hasta que la posición 10 de c2 contenga la sumtoria de todos los
+elementos de c1. Por ejemplo, si c1=[1,5,8,2,3], entonces c2=[1,6,14,16,19]. 
+
+c) Finalmente, deberás de imprimir c1 y c2 para corroborar que tu función está bien hecha.

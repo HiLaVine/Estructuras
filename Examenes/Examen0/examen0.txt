@@ -1,0 +1,27 @@
+Examen 0
+
+Instrucciones:
+
+1.- El examen lo deberás de enviar a más tardar a las 8:10 am, a la dirección de correo 2cm2ago2021@gmail.com.
+
+2.- El asunto deberá se número de boleta examen 1, por ejemplo: 2018XXXXXXXX examen 0.
+
+3.- Los nombres de los archivos de los programas deberán ser programa#-%.c, donde # es el número
+de examen, y % es el número de la pregunta, por ejemplo programa0-1.c
+
+Preguntas:
+
+Para cada pregunta deberás implementar un programa para ilustrar el fucionamiento de
+la o las funciones que se te solcitan.
+
+1.- Definir la fución:   ultimo: Lista -> Elem. programa0-1.c
+
+La función deberá devolver el elemento más a la derecha de la lista, esto es, el primero que entró. 
+La lista que recibe la función como argumento de ser no vacía.
+
+2.- Definir la función Lista cardinal(int n, Lista l). La función deberá devolver una lista sin
+los últimos n elementos en haber entrado a la lista. Por ejemplo, si l=[1,2,3,4,5,6,7,8],
+entonce cardinal(5,l)=[6,7,8]. NumElems(l)>=n.   programa0-2.c
+
+
+ 
